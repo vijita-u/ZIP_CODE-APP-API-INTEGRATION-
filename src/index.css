@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--baseColor: #fff;
+	--fontColor: #6e3b3b;
+	--primaryColor: #000;
+	--accentColor: #f3cf7a;
+	--accentColor2: #ac3f21;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: var(--fontColor);
+	letter-spacing: 1pt;
+	font-weight: 300;
+	background-image: url("https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h5,
+h4,
+h3 {
+	margin: unset;
+}

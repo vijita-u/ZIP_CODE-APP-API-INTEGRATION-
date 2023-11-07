@@ -1,0 +1,42 @@
+.input {
+	margin-bottom: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3rem;
+	align-items: center;
+	justify-content: center;
+}
+
+input::placeholder {
+	padding-left: 0.3125rem;
+	letter-spacing: 0.5pt;
+}
+
+.input__field,
+.input__button {
+	height: 2rem;
+	width: 12.8rem;
+	outline: none;
+	border: 0.0625rem solid var(--fontColor);
+	border-radius: 0.3125rem;
+}
+
+.input__button {
+	width: 4.375rem;
+	background-color: var(--accentColor);
+	cursor: pointer;
+	transition: all 150ms ease-in-out;
+}
+
+.input__button:hover {
+	background-color: var(--baseColor);
+}
+
+.input__button:last-child {
+	background-color: var(--accentColor2);
+	color: var(--baseColor);
+}
+
+.input__button:last-child:hover {
+	background-color: var(--primaryColor);
+}
